@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INFINITY | انفنتي — مكسرات، شوكولاتة، كاندي وهدايا فاخرة</title>
+<meta name="description" content="INFINITY انفنتي: محل مصري متخصص في المكسرات الفاخرة، الشوكولاتة، الكاندي، السناكس وبوكسات الهدايا. تسوق أونلاين بجودة Premium وتوصيل سريع.">
+<meta name="keywords" content="مكسرات, شوكولاتة, كاندي, بوكسات هدايا, انفنتي, INFINITY">
+<link rel="canonical" href="https://example.com/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="INFINITY | انفنتي">
+<meta property="og:description" content="مكسرات، شوكولاتة، كاندي وهدايا مختارة بعناية من انفنتي">
+<meta property="og:image" content="assets/logo/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/icons/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="page-home">
+
+<div id="site-header"></div>
+
+<main>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-eyebrow">INFINITY — عالم المكسرات والشوكولاتة</span>
+        <h1 id="hero-title">لحظتك... بطعم لا يُنسى</h1>
+        <p class="lead" id="hero-desc">مكسرات، شوكولاتة، كاندي وهدايا مختارة بعناية من انفنتي</p>
+        <div class="hero-actions">
+          <a href="products.html" class="btn btn-primary">تسوق الآن</a>
+          <a href="about.html" class="btn btn-outline">اكتشف انفنتي</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong id="hero-stat-1">+100</strong><span>منتج فاخر</span></div>
+          <div><strong id="hero-stat-2">+1000</strong><span>عميل سعيد</span></div>
+          <div><strong id="hero-stat-3">+50</strong><span>بوكس هدية</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-visual__frame">
+          <img id="hero-image" src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=1200&q=80" alt="منتجات انفنتي">
+        </div>
+        <div class="floating-card floating-card--1">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6C2BD9" stroke-width="2"><circle cx="12" cy="12" r="9"/></svg>
+          كاندي طازج
+        </div>
+        <div class="floating-card floating-card--2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+          مكسرات فاخرة
+        </div>
+        <div class="floating-card floating-card--3">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9B5DE5" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="4"/></svg>
+          شوكولاتة بلجيكية
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-head__title">تسوّق حسب التصنيف</h2>
+          <div class="divider-gold"></div>
+          <p class="section-head__sub">كل ما تحتاجه من مكسرات وحلويات وهدايا في مكان واحد</p>
+        </div>
+        <a href="categories.html" class="link-arrow">عرض كل التصنيفات <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+      </div>
+      <div class="categories-grid" id="categories-grid"></div>
+    </div>
+  </section>
+
+  <!-- Best Sellers -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-head__title">🔥 الأكثر مبيعًا</h2>
+          <div class="divider-gold"></div>
+          <p class="section-head__sub">اختيارات عملاء انفنتي المفضلة</p>
+        </div>
+        <a href="products.html?filter=best_seller" class="link-arrow">عرض الكل <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+      </div>
+      <div class="products-grid" id="best-sellers-grid"></div>
+    </div>
+  </section>
+
+  <!-- Offers -->
+  <section class="section">
+    <div class="container">
+      <div class="offer-banner reveal">
+        <div>
+          <h2>🔥 عروض انفنتي</h2>
+          <p>خصومات لفترة محدودة على منتجات مختارة بعناية</p>
+        </div>
+        <a href="products.html?filter=offer" class="btn btn-gold">تصفح كل العروض</a>
+      </div>
+      <div class="products-grid" id="offers-grid"></div>
+    </div>
+  </section>
+
+  <!-- Build Your Box teaser -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="offer-banner reveal" style="background:linear-gradient(120deg,var(--dark-purple),var(--primary-purple));">
+        <div>
+          <h2>🎁 كوّن بوكسك بنفسك</h2>
+          <p>اختر المكسرات والشوكولاتة والكاندي والتغليف بنفسك، واحصل على هدية مثالية بلمستك الخاصة</p>
+        </div>
+        <a href="build-box.html" class="btn btn-gold">ابدأ التكوين</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop by Occasion -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-head__title">اختار هديتك حسب المناسبة</h2>
+          <div class="divider-gold"></div>
+        </div>
+      </div>
+      <div class="occasions-grid" id="occasions-grid"></div>
+    </div>
+  </section>
+
+  <!-- Brand Story -->
+  <section class="section section--alt">
+    <div class="container story-grid">
+      <div class="story-media reveal">
+        <img id="story-image" src="https://images.unsplash.com/photo-1599909533730-f4d0c937d956?w=900&q=80" alt="حكاية انفنتي">
+      </div>
+      <div class="reveal">
+        <h2 id="story-title">حكاية انفنتي</h2>
+        <div class="divider-gold"></div>
+        <p id="story-text" style="font-size:16.5px;">بدأت انفنتي من فكرة بسيطة...</p>
+        <div class="story-stats">
+          <div><strong id="stat-products">+100</strong><span>منتج</span></div>
+          <div><strong id="stat-customers">+1000</strong><span>عميل</span></div>
+          <div><strong id="stat-boxes">+50</strong><span>بوكس هدايا</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured / Reviews -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-head__title">ماذا يقول عملاؤنا</h2>
+          <div class="divider-gold"></div>
+        </div>
+      </div>
+      <div class="reviews-track" id="reviews-track"></div>
+    </div>
+  </section>
+
+  <!-- Instagram Gallery -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-head__title">انفنتي على انستجرام</h2>
+          <div class="divider-gold"></div>
+        </div>
+        <a href="#" data-whatsapp-link class="link-arrow" style="pointer-events:none;">@infinity.eg</a>
+      </div>
+      <div class="insta-grid">
+        <a href="#"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=300&q=80" alt="INFINITY"></a>
+        <a href="#"><img src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=300&q=80" alt="INFINITY"></a>
+        <a href="#"><img src="https://images.unsplash.com/photo-1548907040-4baa419a1949?w=300&q=80" alt="INFINITY"></a>
+        <a href="#"><img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=300&q=80" alt="INFINITY"></a>
+        <a href="#"><img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?w=300&q=80" alt="INFINITY"></a>
+        <a href="#"><img src="https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=300&q=80" alt="INFINITY"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section">
+    <div class="container">
+      <div class="newsletter reveal">
+        <h2>انضم لعائلة انفنتي</h2>
+        <p>اشترك ليصلك كل جديد عن العروض والمنتجات والبوكسات الموسمية</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="بريدك الإلكتروني" required aria-label="البريد الإلكتروني">
+          <button type="submit" class="btn btn-gold">اشترك الآن</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/config.js"></script>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/favorites.js"></script>
+<script src="js/search.js"></script>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
